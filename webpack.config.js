@@ -1,9 +1,9 @@
 module.exports = {
     entry: [
-        {add: './index.js'},
+        {add: './src/index.js'},
         {vendor: [react, react-dom]},
     ],
-    output: {filename: [name].build.js},
+    output: {filename: __dir +'/'+ [name].build.js},
     module:{
         loaders:[
             {
