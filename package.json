@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "start": "webpack-dev-server --inline --hot",
   "scripts": {
+    "start": "webpack-dev-server --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +21,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
   }
 }
